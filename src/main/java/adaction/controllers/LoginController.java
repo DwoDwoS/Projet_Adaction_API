@@ -1,6 +1,5 @@
 package adaction.controllers;
 
-import adaction.security.CorsConfig;
 import adaction.models.LoginRequest;
 import adaction.models.Volunteer;
 import adaction.services.LoginService;

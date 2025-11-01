@@ -21,7 +21,7 @@ services:
     startCommand: java -Dserver.port=$PORT -jar target/*.jar
 
     # === FRONTEND (React/Vite/Tailwind) ===
-  - type: static
+  - type: static_site
     name: Project_Adaction_Front
     repo: https://github.com/DwoDwoS/Project_Adaction_Front
     branch: main
