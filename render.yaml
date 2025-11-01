@@ -25,7 +25,6 @@ services:
     name: Project_Adaction_Front
     repo: https://github.com/DwoDwoS/Project_Adaction_Front
     branch: main
-    rootDirectory: Adaction_Front
     buildCommand: npm ci && npm run build
     staticPublishPath: dist
     envVars:
