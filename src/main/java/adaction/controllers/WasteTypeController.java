@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/wastetype")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "${cors.allowed.origins}")
 public class WasteTypeController {
     private final WasteTypeService wasteTypeService;
 
