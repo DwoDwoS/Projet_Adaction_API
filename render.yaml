@@ -7,11 +7,11 @@ services:
     repo: https://github.com/DwoDwoS/Projet_Adaction_API
     branch: main
     envVars:
-      - key: DATABASE_URL
+      - key: DB_URL
         sync: false
-      - key: DATABASE_USERNAME
+      - key: DB_USERNAME
         sync: false
-      - key: DATABASE_PASSWORD
+      - key: DB_PASSWORD
         sync: false
       - key: PORT
         value: 8080
