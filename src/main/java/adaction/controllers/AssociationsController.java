@@ -13,7 +13,6 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/associations")
-@CrossOrigin(origins = "${cors.allowed.origins}")
 public class AssociationsController {
 
         private final AssociationsService associationsService;
